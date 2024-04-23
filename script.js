@@ -5,7 +5,7 @@ function volume_sphere() {
 		let v1=0;
 		const pi=3.14159265359;
 		if (r1>0) {
-			v1=(4*pi*r**3)/3;
+			v1=(4*pi*r1**3)/3;
 			v1=v1.toFixed(4);
 		 vol.value=v1;
 		}
