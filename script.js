@@ -1,7 +1,7 @@
 function volume_sphere() {
     //Write your code here
-  let r1=parseInt(getElementById("radius").value);
-	let vol=getElementById("volume");
+  let r1=parseInt(document.getElementById("radius").value);
+	let vol=document.getElementById("volume");
 		let v1=0;
 		const pi=3.14159265359;
 		if (r1>0) {
