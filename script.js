@@ -20,6 +20,6 @@ function fnc() {
 		}
 }	
 
-/} 
+//} 
 
 //window.onload =document.getElementById('MyForm').onsubmit = volume_sphere;
