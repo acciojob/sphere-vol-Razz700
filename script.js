@@ -7,10 +7,10 @@ function volume_sphere() {
 		if (r1>0) {
 			v1=(4*pi*r**3)/3;
 			v1=v1.toFixed(4);
-			vol.textContent=v1;
+			vol.value=v1;
 		}
 		else{
-			vol.textContent="NaN";
+			vol.value="NaN";
 		}
 } 
 
